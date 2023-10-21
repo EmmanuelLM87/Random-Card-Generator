@@ -1,0 +1,36 @@
+body {
+    background-color: green;
+    padding: 10%;
+}
+
+.carta{
+    display: flex;
+    background-color: white;
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+    margin: auto;
+    padding: 1rem;
+    font-size: 5rem;
+    flex-direction: column;
+}
+
+.figuraPaloIzq {
+    text-align: start;
+}
+
+.numero {
+    text-align: center;
+    font-size: 6rem;
+}
+
+.figuraPaloDcha {
+    text-align: end;
+}
+
+.boton {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
