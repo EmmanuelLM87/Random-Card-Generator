@@ -1,9 +1,17 @@
 body {
+    background-image: url(images/tapete.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     background-color: green;
     padding: 10%;
 }
 
 .carta{
+    -webkit-box-shadow: 26px 30px 22px 10px rgba(0,0,0,0.54);
+    -moz-box-shadow: 26px 30px 22px 10px rgba(0,0,0,0.54);
+    box-shadow: 26px 30px 22px 10px rgba(0,0,0,0.54);
     display: flex;
     background-color: white;
     width: 200px;
@@ -31,6 +39,6 @@ body {
 .boton {
     display: flex;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 8rem;
 }
 
